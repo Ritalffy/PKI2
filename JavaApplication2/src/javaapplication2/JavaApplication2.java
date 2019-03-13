@@ -15,11 +15,11 @@ public class JavaApplication2 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Wynik 2+3="+Policz(2,3));
+        System.out.println("Wynik 2*3="+Policz(2,3));
         // TODO code application logic here
     }
     public static int Policz (int a, int b) 
     {
-        return a+b;
+        return a*b;
     }
 }
